@@ -1,0 +1,80 @@
+@prefix schema: <http://schema.org/> .
+@prefix LaSerena: <http://dbpedia.org/resource/La_Serena,_Chile> .
+@prefix Diputado: <http://dbpedia.org/page/Deputy_(legislator)> .
+@prefix Resumen: <http://dbpedia.org/resource/Abstract_(summary)> .
+@prefix ex:    <http://example.org/> .
+@prefix dbr:   <http://dbpedia.org/resource/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+
+ex:politicos  schema:Person  ex:maria .
+ex:maria  a      ex:Bibliografias , ex:Hemiciclos , ex:TrayectoriaPoliticaPublica , ex:EstudiosVidaLaboral , ex:FamiliaJuventud , ex:DatosPersonales , ex:Trayectorias , ex:ResenaBibliografica .
+
+ex:DatosPersonales  dbr:Marital_status  dbr:Married ;
+        schema:additionalName  "Antonieta" ;
+        schema:birthDate              "1930-09-24"^^xsd:date ;
+        schema:birthPlace             dbr:Santiago ;
+        schema:deathDate              "" ;
+        schema:deathPlace             "" ;
+        schema:familyName             "Saa Díaz" ;
+        schema:gender                 schema:Female ;
+        schema:givenName              "María " ;
+        schema:hasOccupation          "Profesora de Castellano" ;
+        schema:nationality            dbr:Chilean_nationality_law .
+
+
+ex:Trayectorias  schema:orderedItem  ex:trayectoriaPoliticaItem3 , ex:trayectoriaPoliticaItem2 , ex:trayectoriaPoliticaItem1 .
+
+ex:trayectoriaPoliticaItem1
+        a                         ex:Trayectoria ;
+        schema:startDate         2010 ;
+        schema:endDate        2014 ;
+        schema:distrito           "Distrito N° 17" ;
+        schema:partidoPolitico    "Partido Por la Democracia" ;
+        schema:Legislator  Diputado: .
+
+
+ex:trayectoriaPoliticaItem2
+        a                         ex:Trayectoria ;
+      schema:startDate         2006 ;
+        schema:endDate        2010 ;
+        schema:distrito           "Distrito N° 17" ;
+        schema:partidoPolitico    "Partido Por la Democracia" ;
+        schema:Legislator  Diputado: .
+
+ex:trayectoriaPoliticaItem3
+        a                         ex:Trayectoria ;
+   schema:startDate         2002 ;
+        schema:endDate        2006 ;
+        schema:distrito           "Distrito N° 17" ;
+        schema:partidoPolitico    "Partido Por la Democracia" ;
+        schema:Legislator  Diputado: .
+
+
+ex:ResenaBibliografica
+        <http://dbpedia.org/resource/Abstract_(summary)>
+                "María Antonieta Saa (Santiago, 8 de enero de 1943). Profesora de Estado, mención Castellano, y política del Partido Por la Democracia. Diputada por el Distrito Nº 17, Región Metropolitana, desde 1994 a 2014, por cinco periodos consecutivos. Alcaldesa de la Municipalidad de Conchalí entre 1990 y 1992. Entre 1997 y 1998 fue primera vicepresidenta de la Cámara de Diputados. Consejera Regional por la Circunscripción Provincial Santiago I, períodos 2014-2018 y 2018-2022." .
+
+ex:TrayectoriaPoliticaPublica
+        <http://dbpedia.org/resource/Abstract_(summary)>
+                "Inició sus actividades públicas como fundadora y primera presidenta del Centro de Alumnas del Liceo N° 7 de Santiago. Posteriormente, fue presidenta de la Juventud Estudiantil Católica de Santiago. En 1969, fue electa presidenta de la Asociación de Trabajadores de la CORA, el que junto a trabajadores del Instituto de Desarrollo Agropecuario (INDAP) y del Servicio Agrícola y Ganadero (SAG), conformaron una agrupación de trabajadores del agro que se integró a la Central Única de Trabajadores (CUT). Como vicepresidenta de esta última agrupación, participó en la CUT.En 1970, se integró al Movimiento de Acción Popular Unitario (MAPU), donde fue miembro de la Directiva Nacional y de la Comisión Política, hasta 1972. Dentro de la misma colectividad, fue parte del grupo fundador del Movimiento de Acción Popular Unitaria-Obrero Campesino (también conocido como MAPU-OC, MOC o MAPU Obrero Campesino). Fue parte de su Comité Central y de la Comisión Política.En 1983, participó en la fundación del Movimiento Feminista. Ese mismo año, ingresó al Partido Socialista (PS). Entre 1985 y 1987, fue miembro del Comité Central y de la Comisión Política de dicha colectividad.En 1986, fue electa dirigenta de la Asamblea de la Civilidad y colaboró en la fundación de la Concertación de Mujeres por la Democracia. Al año siguiente, se integró a la Directiva Central del Partido Por la Democracia (PPD), siendo electa vicepresidenta entre 2003 y 2004.Entre 1990, el presidente Patricio Aylwin la designó alcaldesa de la Municipalidad de Conchalí, cargo en el que estuvo hasta 1992. Durante dicho periodo, impulsó el Consejo Comunal del Niño y Niña, y el Consejo del Adulto Mayor. Asimismo, creó el Centro de Apoyo a la Mujer Víctima de la Violencia Doméstica, el Programa de Apoyo para la Mujer Jefa de Hogar y los Servicios Educativos para Niños.El 13 mayo de 2012 participó en las elecciones internas de su colectividad representando la lista 'Un PPD para el Nuevo Chile' que obtuvo el segundo lugar con el 36,3% del total de los sufragios. El 11 de junio de 2012 asumió la séptima vicepresidencia en la mesa directiva del Partido Por la Democracia. En 2013 fue electa Consejera Regional (CORE) por la Circunscripción Provincial Santiago I, periodo 2014-2018, correspondiente a las comunas de Renca, Conchalí, Huechuraba, Pudahuel y Quilicura. Una vez asumida en el cargo se integró a las comisiones de Educación, Ordenamiento Territorial e Internacional[1]." .
+
+ex:EstudiosVidaLaboral
+        <http://dbpedia.org/resource/Abstract_(summary)>
+                "Realizó sus estudios primarios en el Liceo Chileno en Santiago, en el Colegio Beata Imelda de Pitrufquén, y en el Liceo de Niñas de Quillota. Concluyó su educación secundaria en el Liceo N° 7 de Santiago. En 1960, ingresó al Instituto Pedagógico de la Universidad de Chile, donde se tituló de profesora de Castellano, en 1965.Profesionalmente, se desempeñó como profesora del Liceo N° 17 en Santiago. En 1967, se integró a la Corporación de la Reforma Agraria (CORA), como encargada del Programa de Alfabetización Campesina. A partir de 1979, se desempeñó como secretaria de diversos escritores como Jorge Edwards, Matilde Urrutia y Elisa Serrana. Posteriormente, ingresó a trabajar como secretaria al Centro de Formación Técnica Vicente Pérez Rosales en Santiago dónde más tarde, fue jefa de la Carrera de Secretariado.Fue editora social y gremial de la Organización No Gubernamental (ONG) ISIS Internacional, servicio de información y comunicación de las mujeres. En 1982, como parte de la misma institución, viajó a Italia por un año. Al año siguiente, nuevamente en Chile, fue nombrada coordinadora del Círculo de Estudios de la Mujer." .
+
+ex:FamiliaJuventud  <http://dbpedia.org/resource/Abstract_(summary)>
+                "Nació el 8 de enero de 1943, en Santiago. Hija de Raúl Saa y María Antonieta Díaz. Soltera." .
+
+ex:Hemiciclos  schema:orderedItem  ex:hemiciclo1 , ex:hemiciclo2 .
+
+ex:hemiciclo1  schema:startDate  2006 ;
+        schema:endDate  2010 ;
+        schema:description  "   En diciembre de 2005, mantuvo su escaño en la Cámara por el mismo Distrito, (periodo legislativo 2006 a 2010). Integró las comisiones permanentes de Educación, Cultura, Deportes y Recreación; de Familia; de Vivienda y Desarrollo Urbano; y de Constitución, Legislación y Justicia. Junto con las comisiones especiales de Seguridad Ciudadana; y de Drogas. Además de la Comisión Investigadora sobre Platas Públicas entregadas a la Corporación de Desarrollo de Arica y Parinacota (CORDAP).En misiones al extranjero, participó en la 115ª Asamblea de la Unión Interparlamentaria Mundial, en Suiza y también en su versión número 116, en Indonesia. También integró los grupos interparlamentarios chileno-británico, chileno-holandés y chileno-italiano." .
+
+ex:hemiciclo2  schema:startDate  2002 ;
+        schema:endDate  2006 ;
+        schema:description  " En diciembre de 2001, fue reelecta por tercera vez, por su mismo partido e igual Distrito, (período legislativo 2002 a 2006). Mantuvo su trabajo en las mismas comisiones del periodo anterior: Educación, Cultura, Deportes y Recreación; y de Familia." .
+
+
+ex:Bibliografias  dbr:Bibliography  ex:Bibliografia2 , ex:Bibliografia1 .
