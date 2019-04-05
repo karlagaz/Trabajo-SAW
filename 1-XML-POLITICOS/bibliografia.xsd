@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           attributeFormDefault="unqualified" 
+           elementFormDefault="qualified" 
+           targetNamespace="http://xml.cl/bibliografia"
+           xmlns:bl="http://xml.cl/bibliografia">
+ 
+    <xs:complexType name="bibliografiaTYPE">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="editorial" type="xs:string" />
+            <xs:element name="ano" type="xs:gYear" />
+            <xs:element name="descripcion" type="xs:string" />
+            <xs:element name="isbn" type="bl:isbnTYPE"  nillable="true" />
+            <xs:element name="disponible" type="xs:integer" />
+        </xs:sequence>
+        <xs:attribute name="url" type="xs:string" />
+    </xs:complexType>
+    
+    <xs:simpleType name="isbnTYPE">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{9,13}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>
