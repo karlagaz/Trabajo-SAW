@@ -1,9 +1,10 @@
 # Proyecto de Sistemas y Aplicaciones Web</br>
-Este proyecto consta de las siguientes  preguntas:</br></br>
-1.Seleccionar biografías de varios políticos y representarlas en formato XML. Crear un vocabulario mediante XML Schema que permita validar dichos documentos. </br>
 <b>Daniela Peréz</b></br>
 <b>Carlos Grandomn</b></br>
 <b>Alexis Torres</b></br></br>
+Este proyecto consta de las siguientes  preguntas:</br></br>
+1.Seleccionar biografías de varios políticos y representarlas en formato XML. Crear un vocabulario mediante XML Schema que permita validar dichos documentos. </br>
+
 
 2.Representar las biografías anteriores en formato JSON y crear un fichero JSON Schema que permita validar los ficheros correspondientes.
 </br>
