@@ -1,6 +1,6 @@
 # Proyecto de Sistemas y Aplicaciones Web</br>
 <b>Daniela Peréz</b></br>
-<b>Carlos Grandomn</b></br>
+<b>Carlos Grandón</b></br>
 <b>Alexis Torres</b></br></br>
 <b>Magíster en Tecnologías de la Información - Universidad Técnica Federico Santa María.</b>
 </br></br></br></br>
