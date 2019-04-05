@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           attributeFormDefault="unqualified" 
+           elementFormDefault="qualified" 
+           targetNamespace="http://xml.cl/politico" 
+           xmlns:ty="http://xml.cl/trayectoria" 
+           xmlns:hm="http://xml.cl/hemiciclo"
+           xmlns:bl="http://xml.cl/bibliografia"
+           xmlns:pl="http://xml.cl/politico">
+
+    <xs:import namespace="http://xml.cl/trayectoria" schemaLocation="trayectoria.xsd"/>
+    <xs:import namespace="http://xml.cl/hemiciclo" schemaLocation="hemiciclo.xsd"/>
+    <xs:import namespace="http://xml.cl/bibliografia" schemaLocation="bibliografia.xsd"/>
+    
+    <xs:element name="politicos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="politico" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence> 
+                            <xs:element name="datosPersonales">
+                                <xs:complexType>
+                                    <xs:sequence> 
+                                        <xs:element name="img">
+                                            <xs:complexType>
+                                                <xs:attribute name="url" type="xs:string" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="nombres" type="xs:string" />
+                                        <xs:element name="apellidoPaterno" type="xs:string" />
+                                        <xs:element name="apellidoMaterno" type="xs:string" />
+                                        <xs:element name="estadoCivil" type="pl:estadoCivilTYPE" />
+                                        <xs:element name="profesion" type="xs:string" />
+                                        <xs:element name="nacionalidad" type="xs:string" />
+                                        <xs:element name="fechaNacimiento" type="xs:date" />
+                                        <xs:element name="lugarNacimiento" type="xs:string" />
+                                        <xs:element name="fechaDefuncion" type="xs:date" nillable="true" />
+                                        <xs:element name="lugarDefuncion" type="xs:string" nillable="true" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="trayectorias">
+                                <xs:complexType>
+                                    <xs:sequence> 
+                                        <xs:element name="trayectoria" type="ty:trayectoriaTYPE" minOccurs="1" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="reseniaResumen" type="xs:string" />
+                            <xs:element name="familiaJuventud" type="xs:string" />
+                            <xs:element name="estudiosVidaLaboral" type="xs:string" />
+                            <xs:element name="trayectoriaPoliticaPublica" type="xs:string" />
+                            <xs:element name="hemiciclos">
+                                <xs:complexType>
+                                    <xs:sequence> 
+                                        <xs:element name="hemiciclo" type="hm:hemicicloTYPE" minOccurs="1" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="bibliografias">
+                                <xs:complexType>
+                                    <xs:sequence> 
+                                        <xs:element name="bibliografia" type="bl:bibliografiaTYPE" minOccurs="1" maxOccurs="unbounded"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:simpleType name="estadoCivilTYPE">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Soltero"/>
+            <xs:enumeration value="Casado"/>
+            <xs:enumeration value="Viudo"/>
+            <xs:enumeration value="Divorciado"/>
+            <xs:enumeration value="Separado"/>
+            <xs:enumeration value="Conviviente"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>
