@@ -1,0 +1,2 @@
+ex:DatosPersonales@ex:DatosPersonales,ex:ResenaBibliografica@ex:ResenaBibliografica,ex:FamiliaJuventud@ex:FamiliaJuventud,ex:EstudiosVidaLaboral@ex:EstudiosVidaLaboral,ex:TrayectoriaPoliticaPublica@ex:TrayectoriaPoliticaPublica
+,ex:trayectoriaPoliticaItem1@ex:trayectoriaPoliticaItem1,ex:trayectoriaPoliticaItem2@ex:trayectoriaPoliticaItem2,ex:trayectoriaPoliticaItem3@ex:trayectoriaPoliticaItem3,ex:Bibliografia1@ex:Bibliografia1,ex:Bibliografia2@ex:Bibliografia2
