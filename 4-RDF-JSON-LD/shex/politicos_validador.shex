@@ -1,0 +1,76 @@
+PREFIX ex:       <http://example.org/>
+PREFIX schema: <http://schema.org/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+prefix dbr:   <http://dbpedia.org/resource/> 
+prefix LaSerena: <http://dbpedia.org/resource/La_Serena,_Chile> 
+prefix Resumen: <http://dbpedia.org/resource/Abstract_(summary)>
+prefix Diputado: <http://dbpedia.org/page/Deputy_(legislator)>
+
+ex:DatosPersonales IRI { 
+ dbr:Marital_status  [dbr:Married xsd:string];
+ schema:birthDate     xsd:date?  ;
+ schema:birthPlace      [LaSerena: xsd:string  ];
+ schema:additionalName  xsd:string  ;
+ schema:familyName     xsd:string  ;
+ schema:givenName       xsd:string  ;
+ schema:hasOccupation   xsd:string  ;
+ schema:deathDate    xsd:string  ;
+ schema:deathPlace      xsd:string  ;
+ schema:gender         [ schema:Male schema:Female ];
+ schema:nationality     [dbr:Chilean_nationality_law  xsd:string] ;
+}
+
+ex:ResenaBibliografica IRI { 
+  Resumen:       xsd:string  ;
+}
+
+ex:FamiliaJuventud IRI { 
+  Resumen:       xsd:string  ;
+}
+
+ex:EstudiosVidaLaboral IRI { 
+  Resumen:       xsd:string  ;
+}
+
+ex:TrayectoriaPoliticaPublica IRI { 
+  Resumen:       xsd:string  ;
+}
+
+ex:trayectoriaPoliticaItem1 IRI { 
+  schema:Legislator       [Diputado: xsd:string] ;
+  schema:distrito         xsd:string ;
+  schema:endDate          xsd:integer ;
+  schema:partidoPolitico  [dbr:Communist_Party_of_Chile  xsd:string] ;
+  schema:startDate        xsd:integer ;
+}
+ex:trayectoriaPoliticaItem2 IRI { 
+  schema:Legislator       [Diputado: xsd:string] ;
+  schema:distrito         xsd:string ;
+  schema:endDate          xsd:integer ;
+  schema:partidoPolitico  [dbr:Communist_Party_of_Chile  xsd:string] ;
+  schema:startDate        xsd:integer ;
+}
+ex:trayectoriaPoliticaItem3 IRI { 
+  schema:Legislator       [Diputado: xsd:string] ;
+  schema:distrito         xsd:string ;
+  schema:endDate          xsd:integer ;
+  schema:partidoPolitico  [dbr:Communist_Party_of_Chile  xsd:string] ;
+  schema:startDate        xsd:integer ;
+}
+      
+ex:Bibliografia1 IRI { 
+schema:availability  xsd:integer ;
+schema:datePublished xsd:integer ;
+schema:isbn          xsd:string ;
+schema:name            xsd:string ;
+schema:numberOfPages  xsd:integer ;
+schema:publisher       xsd:string ;
+}
+ex:Bibliografia2 IRI { 
+schema:availability  xsd:integer ;
+schema:datePublished xsd:integer ;
+schema:isbn          xsd:string ;
+schema:name            xsd:string ;
+schema:numberOfPages  xsd:integer ;
+schema:publisher       xsd:string ;
+}
