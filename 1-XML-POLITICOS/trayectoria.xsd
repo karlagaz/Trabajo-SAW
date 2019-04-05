@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           attributeFormDefault="unqualified" 
+           elementFormDefault="qualified" 
+           targetNamespace="http://xml.cl/trayectoria"
+           xmlns:ty="http://xml.cl/trayectoria" >
+ 
+    <xs:complexType name="trayectoriaTYPE">
+        <xs:sequence>
+            <xs:element name="tipoParlamentario" type="ty:tipoParlamentarioTYPE"/>
+            <xs:element name="partidoPolitico" type="ty:partidoPoliticoTYPE"/>
+            <xs:element name="periodoInicio" type="ty:anoTYPE" />
+            <xs:element name="periodoTermino" type="ty:anoTYPE" />
+            <xs:element name="divisionElectoral" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+           
+    <xs:simpleType name="tipoParlamentarioTYPE">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Senador"/>
+            <xs:enumeration value="Diputado"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="partidoPoliticoTYPE">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Unión Demócrata Independiente"/>
+            <xs:enumeration value="Renovación Nacional"/>
+            <xs:enumeration value="Partido Demócrata Cristiano"/>
+            <xs:enumeration value="Partido Por la Democracia"/>
+            <xs:enumeration value="Partido Comunista de Chile"/>
+            <xs:enumeration value="Partido Socialista de Chile"/>
+            <xs:enumeration value="Evolución Política"/>
+            <xs:enumeration value="Revolución Democrática"/>
+            <xs:enumeration value="País Progresista"/>
+            <xs:enumeration value="Partido Radical de Chile"/>
+            <xs:enumeration value="Partido Demócrata Cristiano"/>
+            <xs:enumeration value="Federación Regionalista Verde Social"/>
+            <xs:enumeration value="Partido Humanista"/>
+            <xs:enumeration value="Partido Liberal de Chile"/>
+            <xs:enumeration value="Poder Ciudadano"/>
+            <xs:enumeration value="Partido Igualdad"/>
+            <xs:enumeration value="Partido Ecologista Verde"/>
+            <xs:enumeration value="Partido Regionalista Independiente Demócrata"/>
+            <xs:enumeration value="Ciudadanos"/>
+            <xs:enumeration value="Izquierda Anticapitalista de los Trabajadores"/>
+            <xs:enumeration value="Nuevo Tiempo"/>
+            <xs:enumeration value="Partido Anticorrupción Chile"/>
+            <xs:enumeration value="Movimiento por la Tierra, el Trabajo y la Libertad"/>
+            <xs:enumeration value="Partido Orden Republicano Por Mi Patria"/>
+            <xs:enumeration value="Partido Político Chile Feminista"/>
+            <xs:enumeration value="Unidad Cristiana Nacional"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="anoTYPE">
+        <xs:restriction base="xs:gYear">
+            <xs:minInclusive value="1810"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>
