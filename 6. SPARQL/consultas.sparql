@@ -1,0 +1,83 @@
+#Query 1 
+#Sistemas operativos y Dependencias
+#defaultView:Graph
+SELECT distinct
+?p ?pLabel 
+?q ?qLabel
+?pic ?fechacreacion
+WHERE
+{
+  ?p wdt:P31 wd:Q9135.
+    ?p  wdt:P144 ?q  .   # SO vinculado a otro SO    
+   OPTIONAL {
+         ?p  wdt:P279+ wd:Q9135 .   # SO
+     ?p wdt:P571 ?fechacreacion.
+    ?p wdt:P18 ?pic .
+    }
+     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],es"}.  #idiomas
+}
+
+# --------------------------------------------------------------- 
+
+#Query 2
+#Ranking de Paises por Cantidad de museos por habitantes 
+select 
+?paisLabel
+?countMuseos
+?habit
+( ?habit/ ?countMuseos 
+ as ?HabXMus)
+(100*  ?countMuseos / ?habit
+ as ?Porc)
+
+WHERE {
+
+select ?paisLabel 
+(count(?p) as ?countMuseos)
+(max(?habit) as ?habit)  # museos por habitante
+Where {
+SELECT DISTINCT ?p ?pLabel
+?pais ?paisLabel
+?habit 
+WHERE {
+  ?p wdt:P31 wd:Q33506.
+  ?p wdt:P17 ?pais.
+  ?pais wdt:P1082 ?habit
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],es". }
+}}
+group by ?paisLabel
+}
+order by asc (?HabXMus)
+
+# --------------------------------------------------------------- 
+
+#Query 3
+# politicos chilenos con mas enlaces de sitio en wikidata (Sitelinks)
+# Sitelinks: https://www.wikidata.org/wiki/Help:Sitelinks
+SELECT DISTINCT ?pLabel (?link as ?cant)
+ WHERE {
+
+    ?p wdt:P106 wd:Q82955 .
+    ?p (wdt:P19 | wdt:P27 ) wd:Q298.
+    ?p wikibase:sitelinks ?link .
+    
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],es"}.  #idiomas   
+    FILTER (?link > 1) 
+}
+ORDER BY DESC(?cant)
+
+# --------------------------------------------------------------- 
+
+#Query 4
+#promedio de vida de los politicos Chilenos
+SELECT (ROUND(AVG(?edad)) AS ?prom_poli)
+WHERE 
+{
+   ?p wdt:P106 wd:Q82955 .
+   ?p (wdt:P19 | wdt:P27 ) wd:Q298.
+  ?p wdt:P569 ?fec_nac.
+  ?p wdt:P570 ?fec_muerte.
+  BIND( (?fec_muerte - ?fec_nac)/365 AS ?edad ). #considerando los 365 dias de un año (puede existir error con bisiestos)
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],es"}.  #idiomas   
+
+}
