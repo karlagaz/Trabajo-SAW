@@ -1,0 +1,214 @@
+{
+    "@graph": [
+        {
+            "@id": "ex:Bibliografia1",
+            "schema:availability": 0,
+            "schema:datePublished": 2004,
+            "isbn": "",
+            "name": "Ley de matrimonio civil : el apoyo de parlamentarios católicos.",
+            "schema:numberOfPages": 528,
+            "publisher": ""
+        },
+        {
+            "@id": "ex:Bibliografia2",
+            "schema:availability": 3,
+            "schema:datePublished": 2007,
+            "isbn": "9563140071",
+            "name": "La reforma al sistema escolar : aportes para el debate.",
+            "schema:numberOfPages": 252,
+            "publisher": "Universidad Diego Portales"
+        },
+        {
+            "@id": "ex:Bibliografia3",
+            "schema:availability": 1,
+            "schema:datePublished": 2006,
+            "isbn": "9563070127",
+            "name": "Presentes y distantes : los desafíos del e-learning en la educación superior.",
+            "schema:numberOfPages": 92,
+            "publisher": "Universidad Uniac"
+        },
+        {
+            "@id": "ex:Bibliografias",
+            "Bibliography": [
+                "ex:Bibliografia3",
+                "ex:Bibliografia2",
+                "ex:Bibliografia1"
+            ]
+        },
+        {
+            "@id": "ex:DatosPersonales",
+            "Marital_status": "dbr:Married",
+            "additionalName": "",
+            "birthDate": "1949-07-13",
+            "birthPlace": "dbr:Santiago",
+            "deathDate": "",
+            "deathPlace": "",
+            "familyName": "Aylwin Oyarzún",
+            "gender": "schema:Female",
+            "givenName": "Mariana ",
+            "hasOccupation": "Profesor de Estado en Historia, Geografía y Educación Cívica",
+            "nationality": "dbr:Chilean_nationality_law"
+        },
+        {
+            "@id": "ex:EstudiosVidaLaboral",
+            "": "Realizó su etapa escolar en el Colegio Santa Úrsula, en Santiago. Luego ingresó a la Universidad Católica de Chile, donde cursó la carrera de Pedagogía en Historia, Geografía y Educación Cívica, titulandose en el año 1976. Durante su época universitaria y una vez egresada, desarrolló importantes investigaciones relacionadas con su especialidad.En el aspecto laboral, trabajó como profesora de enseñanza media en el Saint Georges College, entre 1974 y 1975. En el año 1979 fue becada por el Instituto Iberoamericano de Cooperación en Madrid, donde realizó una investigación sobre 'La experiencia española de transición a la democracia'. A su regreso, retomó sus clases de profesora de enseñanza media en el Saint George´s, entre los años 1981 a 1986.Consultora para universidad Uniacc y miembro de su Directorio Ejecutivo hasta junio de 2010[1].Directora Ejecutiva de Corporación Educacional Aprender.Formó parte del directorio de la Fundación Belén Educa y de la Fundación Oportunidad."
+        },
+        {
+            "@id": "ex:FamiliaJuventud",
+            "": "Nació en Santiago, el 13 de julio de 1949. Hija del ex presidente de la República, Patricio Aylwin Azócar y de Leonor Oyarzún Ivanovic. Sobrina del ex diputado Andrés Aylwin Azócar.Casada con Carlos Bascuñán Edwards y tiene cuatro hijos."
+        },
+        {
+            "@id": "ex:Hemiciclos",
+            "orderedItem": "ex:hemiciclo1"
+        },
+        {
+            "@id": "ex:Mariana",
+            "@type": [
+                "ex:Bibliografias",
+                "ex:Hemiciclos",
+                "ex:TrayectoriaPoliticaPublica",
+                "ex:EstudiosVidaLaboral",
+                "ex:FamiliaJuventud",
+                "ex:DatosPersonales",
+                "ex:Trayectorias",
+                "ex:ResenaBibliografica"
+            ]
+        },
+        {
+            "@id": "ex:ResenaBibliografica",
+            "": "   Mariana Aylwin Oyarzún (Santiago, 13 de julio de 1949). Profesora y política del Partido Demócrata Cristiano. Diputada por el Distrito N° 26, comuna La Florida, Región Metropolitana, para el período legislativo 1994-1998. Ministra de Educación durante el Gobierno de Ricardo Lagos Escobar entre 2000 y 2003. Consejera Regional de la Región Metropolitana, entre marzo de 2014 y noviembre de 2016."
+        },
+        {
+            "@id": "ex:TrayectoriaPoliticaPublica",
+            "": "Inició su trayectoria política en 1987, año en que se creó la Concertación de Mujeres por la Democracia. Paralelamente, fue nombrada subdirectora nacional del Departamento de la Mujer del Partido Demócrata Cristiano y secretaria ejecutiva de la Fundación para el Desarrollo y la Cultura Popular. Con el retorno a la democracia, en 1990 se desempeñó como asesora externa de la Dirección de Estudios del Ministerio Secretaría General de la Presidencia, ejerciendo hasta 1994.Durante 1991 fue delegada a la Junta Nacional del Partido Demócrata Cristiano. En 1992 y 1993 integró la directiva central del partido, ocupando la cuarta vicepresidencia nacional[2]. También fue Presidenta del Consejo Político-Técnico y Coordinadora de la Comisión 'Programa de la Concertación de Partidos por la Democracia'.En diciembre de 1993 participó en las elecciones parlamentarias como candidata a diputada por el Distrito Nº26, de correspondía en aquel entonces a la comuna de La Florida, en la Región Metropolitana. Fue electa al obtener 48.309 votos, es decir 32,91% de las preferencias[3]. Para las elecciones parlamentarias de 1997 fue a la reelección por el mismo distrito, pero obtuvo el 20,72% de los sufragios[4], y no resultó electa.Entre 1999 y 2000, se desempeñó como Coordinadora Nacional del Programa de Mejoramiento de la Calidad y Equidad de la Educación Media (MECE-MEDIA) del Ministerio de Educación.Entre 2000 y 2003 fue Ministra de Educación durante el gobierno de Ricardo Lagos Escobar.En 2006 le correspondió organizar el Congreso Programático de la Democracia Cristiana[5] de octubre de 2007 donde se conmemoraron los 70 años de la fundación de la Falange Nacional. Entre mayo y julio de 2010 participó en el Panel de Expertos para una Educación de Calidad, convocado por el presidente Sebastián Piñera, que trabajó para elaborar propuestas para mejorar el sistema de educación chileno[6]. Entre 2013 y 2015 fuerza pública.En las elecciones para el gobierno regional efectuadas en diciembre de 2013, resultó electa Consejera Regional de la Región Metropolitana de Santiago por la IV circunscripción, al obtener 47.164 votos, es decir el 10,76% de las preferencias. Se desempeñó en este cargo hasta noviembre de 2016 cuando presentó su renuncia con la intención de participar en las elecciones parlamentarias de diciembre de 2017.El 5 de enero de 2018, oficializó su renuncia al Partido Demócrata Cristiano[7].Entre junio y noviembre de 2018 presidió la comisión presidencial de expertos llamada “Todos al Aula” y que tuvo por objetivo elaborar un plan para desburocratizar la carga administrativa de los colegios del país[8].En julio de 2018 fue designada para integrar el directorio de la Fundación Chile[9]."
+        },
+        {
+            "@id": "ex:Trayectorias",
+            "orderedItem": "ex:trayectoriaPoliticaItem1"
+        },
+        {
+            "@id": "ex:hemiciclo1",
+            "description": "En diciembre de 1993 se presentó como candidata a diputada por el Distrito Nº26, que representaba a la comuna de La Florida, en la Región Metropolitana, para el período 1994 a 1998 y resultó electa.Integró la Comisión Permanente de Educación, Cultura, Deportes y Recreación, la Comisión de Familia y la Comisión de Salud. Asistió en representación oficial de la Cámara de Diputados a la III Reunión de Comisión de la Mujer del Parlamento Latinoamericano y Caribeño (PARLATINO) realizada en Buenos Aires, Argentina, en septiembre de 1994[10].",
+            "schema:endDate": 1998,
+            "schema:startDate": 1994
+        },
+        {
+            "@id": "ex:politicos",
+            "Person": "ex:Mariana"
+        },
+        {
+            "@id": "ex:trayectoriaPoliticaItem1",
+            "@type": "ex:Trayectoria",
+            "Legislator": "http://dbpedia.org/page/Deputy_(legislator)",
+            "distrito": "Distrito N° 26",
+            "schema:endDate": 1998,
+            "partidoPolitico": "Partido Demócrata Cristiano",
+            "schema:startDate": 1994
+        }
+    ],
+    "@context": {
+        "": {
+            "@id": "http://dbpedia.org/resource/Abstract_(summary)"
+        },
+        "publisher": {
+            "@id": "http://schema.org/publisher"
+        },
+        "numberOfPages": {
+            "@id": "http://schema.org/numberOfPages",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        },
+        "name": {
+            "@id": "http://schema.org/name"
+        },
+        "isbn": {
+            "@id": "http://schema.org/isbn"
+        },
+        "datePublished": {
+            "@id": "http://schema.org/datePublished",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        },
+        "availability": {
+            "@id": "http://schema.org/availability",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        },
+        "Person": {
+            "@id": "http://schema.org/Person",
+            "@type": "@id"
+        },
+        "orderedItem": {
+            "@id": "http://schema.org/orderedItem",
+            "@type": "@id"
+        },
+        "startDate": {
+            "@id": "http://schema.org/startDate",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        },
+        "partidoPolitico": {
+            "@id": "http://schema.org/partidoPolitico"
+        },
+        "endDate": {
+            "@id": "http://schema.org/endDate",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        },
+        "distrito": {
+            "@id": "http://schema.org/distrito"
+        },
+        "Legislator": {
+            "@id": "http://schema.org/Legislator",
+            "@type": "@id"
+        },
+        "Bibliography": {
+            "@id": "http://dbpedia.org/resource/Bibliography",
+            "@type": "@id"
+        },
+        "gender": {
+            "@id": "http://schema.org/gender",
+            "@type": "@id"
+        },
+        "nationality": {
+            "@id": "http://schema.org/nationality",
+            "@type": "@id"
+        },
+        "deathDate": {
+            "@id": "http://schema.org/deathDate",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        },
+        "Marital_status": {
+            "@id": "http://dbpedia.org/resource/Marital_status",
+            "@type": "@id"
+        },
+        "birthDate": {
+            "@id": "http://schema.org/birthDate",
+            "@type": "http://www.w3.org/2001/XMLSchema#date"
+        },
+        "hasOccupation": {
+            "@id": "http://schema.org/hasOccupation"
+        },
+        "birthPlace": {
+            "@id": "http://schema.org/birthPlace",
+            "@type": "@id"
+        },
+        "familyName": {
+            "@id": "http://schema.org/familyName"
+        },
+        "givenName": {
+            "@id": "http://schema.org/givenName"
+        },
+        "additionalName": {
+            "@id": "http://schema.org/additionalName"
+        },
+        "deathPlace": {
+            "@id": "http://schema.org/deathPlace"
+        },
+        "description": {
+            "@id": "http://schema.org/description"
+        },
+        "schema": "http://schema.org/",
+        "Diputado": "http://dbpedia.org/page/Deputy_(legislator)",
+        "LaSerena": "http://dbpedia.org/resource/La_Serena,_Chile",
+        "Resumen": "http://dbpedia.org/resource/Abstract_(summary)",
+        "ex": "http://example.org/",
+        "dbr": "http://dbpedia.org/resource/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+}
