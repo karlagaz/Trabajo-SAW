@@ -1,0 +1,199 @@
+{
+  "@graph" : [ {
+    "@id" : "ex:Bibliografia1",
+    "schema:availability" : 1,
+    "schema:datePublished" : 2005,
+    "isbn" : "956811453X",
+    "name" : "Globalización, identidad y justicia social",
+    "schema:numberOfPages" : 350,
+    "publisher" : "Universidad Arcis"
+  }, {
+    "@id" : "ex:Bibliografia2",
+    "schema:availability" : 1,
+    "schema:datePublished" : 2004,
+    "isbn" : "9567069921",
+    "name" : "La globalización cuestionada.",
+    "schema:numberOfPages" : 186,
+    "publisher" : "Universidad de Santiago de Chile"
+  }, {
+    "@id" : "ex:Bibliografias",
+    "Bibliography" : [ "ex:Bibliografia1", "ex:Bibliografia2" ]
+  }, {
+    "@id" : "ex:DatosPersonales",
+    "Marital_status" : "dbr:Married",
+    "additionalName" : "Luis",
+    "birthDate" : "1930-09-24",
+    "birthPlace" : "dbr:La_Serena,_Chile",
+    "deathDate" : "",
+    "deathPlace" : "",
+    "familyName" : "Cademártori Invernizzi",
+    "gender" : "schema:Male",
+    "givenName" : "José ",
+    "hasOccupation" : "Ingeniero Comercial",
+    "nationality" : "dbr:Chilean_nationality_law"
+  }, {
+    "@id" : "ex:EstudiosVidaLaboral",
+    "" : "Sus estudios escolares los realizó en un colegio de monjas italianas en Arica, en un establecimiento educacional de sacerdotes en Iquique y en el Patrocinio San José de la ciudad de Santiago. La educación superior la realizó en la Escuela de Economía de la Universidad de Chile donde se tituló de Ingeniero Comercial en 1952 con la memoria de tesis titulada “Las cuentas nacionales: naturales y experiencia”, establecimiento donde posteriormente se desempeñaría como ayudante y profesor. Durante sus estudios conoció a su mujer, Xenia Dujisin, con quien tuvo tres hijos. En el ámbito laboral, durante el segundo gobierno de Carlos Ibáñez del Campo, entre 1952 y 1954, trabajó como asesor del Ministro de Hacienda Juan Bautista Rossetti, incorporándose después al recién creado Ministerio de Minería a cargo de Clodomiro Almeyda. Luego se incorporaría como Jefe de Sección del Departamento de Planificación de la Corporación de Fomento, CORFO, donde se desempeñaría además como dirigente de la Asociación de Empleados entre 1959-1960 y Senador Consejero en 1957. A su regreso a Chile del exilio, trabajó en el Instituto Alejandro Lipschutz, colaboró en medios periodísticos como Le Monde Diplomatique, Rocinante, La Nación y Punto Final, se dedicó a prestar asesorías además de dictar charlas asumiendo una postura crítica del neoliberalismo expresada en sus libros Chile: el modelo neoliberal del 2001 y en 2004. La globalización cuestionada, entre otros trabajos."
+  }, {
+    "@id" : "ex:FamiliaJuventud",
+    "" : "Nació en La Serena el 24 de septiembre de 1930; hijo de José Cademártori Vaccaro y Stella Invernizzi. Se casó con Xenia Dujisin y tuvieron tres hijos: Yanina, Jean José y Andrés."
+  }, {
+    "@id" : "ex:Hemiciclos",
+    "orderedItem" : [ "ex:hemiciclo2", "ex:hemiciclo1" ]
+  }, {
+    "@id" : "ex:ResenaBibliografica",
+    "" : " José Luis Cademártori (La Serena, 24 de septiembre de 1930). Ingeniero comercial, académico y político chileno del Partido Comunista. Diputado por cuatro periodos consecutivos entre 1957 y 1973 por la Séptima Agrupación Departamental 'Santiago', primer distrito."
+  }, {
+    "@id" : "ex:TrayectoriaPoliticaPublica",
+    "" : "Miembro del Partido Comunista de Chile, integró el Comité Central del mismo, siendo su titular desde el XII Congreso de 1961. En su actuación político-pública también fue llamado por el presidente Salvador Allende para el cargo de ministro de Economía, Fomento y Reconstrucción, puesto que ocupó entre el 5 de julio de 1973 y el 11 de septiembre del mismo año. Preso tres años en la Escuela Militar de Santiago, en la isla Dawson y en Ritoque, siendo deportado al exilio junto a su mujer y dos hijos en noviembre de 1976. Vivió en Venezuela seis años, hizo clases en la Universidad Central de Caracas y se desempeñó como investigador del Centro de Estudios del Desarrollo, además de dedicarse a la organización política de los exiliados. Hasta 1980 formó parte del “Grupo Caracas” integrado por democratacristianos, radicales, socialistas y comunistas, entre ellos Jaime Castillo Velasco y Renán Fuentealba. Después estuvo un año en Cuba y luego en Alemania durante aproximadamente cinco años hasta su regreso a Chile en 1988 semanas antes del Plebiscito de aquel año."
+  }, {
+    "@id" : "ex:Trayectorias",
+    "orderedItem" : [ "ex:trayectoriaPoliticaItem1", "ex:trayectoriaPoliticaItem2", "ex:trayectoriaPoliticaItem3" ]
+  }, {
+    "@id" : "ex:hemiciclo1",
+    "description" : "Reelecto nuevamente diputado por la Agrupación y Distrito mencionados, período 1969-1973; integró la Comisión Permanente de Hacienda. ",
+    "schema:endDate" : 1973,
+    "schema:startDate" : 1969
+  }, {
+    "@id" : "ex:hemiciclo2",
+    "description" : "Fue electo nuevamente diputado por la Agrupación y Distrito ya mencionados, período 1965-1969, donde fue miembro de la Comisión Mixta de Presupuesto, 1963 a 1969 y miembro propietario del Comité Parlamentario Comunista entre 1967-1969.",
+    "schema:endDate" : 1969,
+    "schema:startDate" : 1965
+  }, {
+    "@id" : "ex:jose",
+    "@type" : [ "ex:ResenaBibliografica", "ex:Trayectorias", "ex:DatosPersonales", "ex:FamiliaJuventud", "ex:EstudiosVidaLaboral", "ex:TrayectoriaPoliticaPublica", "ex:Hemiciclos", "ex:Bibliografias" ]
+  }, {
+    "@id" : "ex:politicos",
+    "Person" : "ex:jose"
+  }, {
+    "@id" : "ex:trayectoriaPoliticaItem1",
+    "@type" : "ex:Trayectoria",
+    "Legislator" : "http://dbpedia.org/page/Deputy_(legislator)",
+    "distrito" : "7ª Agrupación Departamental 'Santiago', primer distrito",
+    "schema:endDate" : 1973,
+    "partidoPolitico" : "dbr:Communist_Party_of_Chile",
+    "schema:startDate" : 1969
+  }, {
+    "@id" : "ex:trayectoriaPoliticaItem2",
+    "@type" : "ex:Trayectoria",
+    "Legislator" : "http://dbpedia.org/page/Deputy_(legislator)",
+    "distrito" : "7ª Agrupación Departamental 'Santiago', primer distrito",
+    "schema:endDate" : 1969,
+    "partidoPolitico" : "dbr:Communist_Party_of_Chile",
+    "schema:startDate" : 1965
+  }, {
+    "@id" : "ex:trayectoriaPoliticaItem3",
+    "@type" : "ex:Trayectoria",
+    "Legislator" : "http://dbpedia.org/page/Deputy_(legislator)",
+    "distrito" : "7ª Agrupación Departamental 'Santiago', primer distrito",
+    "schema:endDate" : 1965,
+    "partidoPolitico" : "dbr:Communist_Party_of_Chile",
+    "schema:startDate" : 1961
+  } ],
+  "@context" : {
+    "" : {
+      "@id" : "http://dbpedia.org/resource/Abstract_(summary)"
+    },
+    "publisher" : {
+      "@id" : "http://schema.org/publisher"
+    },
+    "numberOfPages" : {
+      "@id" : "http://schema.org/numberOfPages",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "name" : {
+      "@id" : "http://schema.org/name"
+    },
+    "isbn" : {
+      "@id" : "http://schema.org/isbn"
+    },
+    "datePublished" : {
+      "@id" : "http://schema.org/datePublished",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "availability" : {
+      "@id" : "http://schema.org/availability",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Person" : {
+      "@id" : "http://schema.org/Person",
+      "@type" : "@id"
+    },
+    "startDate" : {
+      "@id" : "http://schema.org/startDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "partidoPolitico" : {
+      "@id" : "http://schema.org/partidoPolitico",
+      "@type" : "@id"
+    },
+    "endDate" : {
+      "@id" : "http://schema.org/endDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "distrito" : {
+      "@id" : "http://schema.org/distrito"
+    },
+    "Legislator" : {
+      "@id" : "http://schema.org/Legislator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://schema.org/description"
+    },
+    "orderedItem" : {
+      "@id" : "http://schema.org/orderedItem",
+      "@type" : "@id"
+    },
+    "Bibliography" : {
+      "@id" : "http://dbpedia.org/resource/Bibliography",
+      "@type" : "@id"
+    },
+    "nationality" : {
+      "@id" : "http://schema.org/nationality",
+      "@type" : "@id"
+    },
+    "hasOccupation" : {
+      "@id" : "http://schema.org/hasOccupation"
+    },
+    "deathDate" : {
+      "@id" : "http://schema.org/deathDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "Marital_status" : {
+      "@id" : "http://dbpedia.org/resource/Marital_status",
+      "@type" : "@id"
+    },
+    "familyName" : {
+      "@id" : "http://schema.org/familyName"
+    },
+    "givenName" : {
+      "@id" : "http://schema.org/givenName"
+    },
+    "additionalName" : {
+      "@id" : "http://schema.org/additionalName"
+    },
+    "gender" : {
+      "@id" : "http://schema.org/gender",
+      "@type" : "@id"
+    },
+    "birthPlace" : {
+      "@id" : "http://schema.org/birthPlace",
+      "@type" : "@id"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "deathPlace" : {
+      "@id" : "http://schema.org/deathPlace"
+    },
+    "schema" : "http://schema.org/",
+    "LaSerena" : "http://dbpedia.org/resource/La_Serena,_Chile",
+    "Diputado" : "http://dbpedia.org/page/Deputy_(legislator)",
+    "Resumen" : "http://dbpedia.org/resource/Abstract_(summary)",
+    "ex" : "http://example.org/",
+    "dbr" : "http://dbpedia.org/resource/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#"
+  }
+}
