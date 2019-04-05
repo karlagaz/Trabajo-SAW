@@ -2,8 +2,8 @@
 <b>Daniela Peréz</b></br>
 <b>Carlos Grandomn</b></br>
 <b>Alexis Torres</b></br></br>
-<b>Magíster en Tecnologías de la información - Universidad Tecnica Federico Santa Maria.</b>
-</br></br>
+<b>Magíster en Tecnologías de la Información - Universidad Tecnica Federico Santa Maria.</b>
+</br></br></br></br>
 Este proyecto consta de las siguientes  preguntas:</br></br>
 1.Seleccionar biografías de varios políticos y representarlas en formato XML. Crear un vocabulario mediante XML Schema que permita validar dichos documentos. </br>
 
