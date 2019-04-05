@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<politicos xmlns:pl="http://xml.cl/politico"
+           xmlns:ty="http://xml.cl/trayectoria"
+           xmlns:hm="http://xml.cl/hemiciclo"
+           xmlns:bl="http://xml.cl/bibliografia"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="politico.xsd">
+    <pl:politico  title="Politicos Chilenos" id="1968">
+	<pl:datosPersonales  title="Datos personales"  itemscope="" itemtype="http://schema.org/Person"> 
+ <pl:img url="http://biografias.bcn.cl/images/9/9a/Mariana_Aylwin_Oyarz%C3%BAn.jpg"  itemprop="image"></pl:img>    
+	  <pl:nombres title="Nombres" itemprop="givenName">Mariana</pl:nombres>
+        <pl:apellidoPaterno title="Apellido Paterno" itemprop="familyName">Aylwin</pl:apellidoPaterno>
+        <pl:apellidoMaterno title="Apellido Materno" itemprop="familyName">Oyarzún</pl:apellidoMaterno>
+        <pl:estadoCivil title="Estado Civil">Casado</pl:estadoCivil>
+        <pl:profesion title="Profesión"  itemprop="hasOccupation">Profesor de Estado en Historia, Geografía y Educación Cívica</pl:profesion>
+        <pl:nacionalidad title="Nacionalidad"  itemprop="nationality">Chilena</pl:nacionalidad>
+        <pl:fechaNacimiento  title="Fecha de Nacimiento" itemprop="birthDate">1949-07-13</pl:fechaNacimiento>
+        <pl:lugarNacimiento title="Lugar Nacimiento" itemprop="birthPlace">Santiago, Chile</pl:lugarNacimiento>
+        <pl:fechaDefuncion title="Fecha Defunción"  itemprop="deathDate">&#160;</pl:fechaDefuncion>
+        <pl:lugarDefuncion title="Lugar Defunción"  itemprop="deathPlace">&#160;</pl:lugarDefuncion>
+			</pl:datosPersonales>
+        <pl:trayectorias title="Trayectoria Política">
+            <pl:trayectoria>
+                <ty:tipoParlamentario title="Tipo de Parlamentario">Diputado</ty:tipoParlamentario>
+                <ty:partidoPolitico  title="Partido politico">Partido Demócrata Cristiano</ty:partidoPolitico>
+                <ty:periodoInicio title="Periodo inicio">1994</ty:periodoInicio>
+                <ty:periodoTermino title="Periodo Termino">1998</ty:periodoTermino>
+                <ty:divisionElectoral title="Distrito Electoral">Distrito N° 26</ty:divisionElectoral>
+            </pl:trayectoria>
+        </pl:trayectorias>
+        <pl:reseniaResumen title="Resumen reseña bibliográfica"    itemprop="description" itemscope="" itemtype="http://schema.org/description">
+            Mariana Aylwin Oyarzún (Santiago, 13 de julio de 1949). Profesora y política del Partido Demócrata Cristiano. Diputada por el Distrito N° 26, comuna La Florida, Región Metropolitana, para el período legislativo 1994-1998. Ministra de Educación durante el Gobierno de Ricardo Lagos Escobar entre 2000 y 2003. Consejera Regional de la Región Metropolitana, entre marzo de 2014 y noviembre de 2016.
+        </pl:reseniaResumen>
+        <pl:familiaJuventud title="Familia y juventud">
+            Nació en Santiago, el 13 de julio de 1949. Hija del ex presidente de la República, Patricio Aylwin Azócar y de Leonor Oyarzún Ivanovic.
+            Sobrina del ex diputado Andrés Aylwin Azócar.
+            Casada con Carlos Bascuñán Edwards y tiene cuatro hijos.
+        </pl:familiaJuventud>
+        <pl:estudiosVidaLaboral  title="Estudios y vida laboral">
+            Realizó su etapa escolar en el Colegio Santa Úrsula, en Santiago. Luego ingresó a la Universidad Católica de Chile, donde cursó la carrera de Pedagogía en Historia, Geografía y Educación Cívica, titulandose en el año 1976. Durante su época universitaria y una vez egresada, desarrolló importantes investigaciones relacionadas con su especialidad.
+            En el aspecto laboral, trabajó como profesora de enseñanza media en el Saint George´s College, entre 1974 y 1975. En el año 1979 fue becada por el Instituto Iberoamericano de Cooperación en Madrid, donde realizó una investigación sobre "La experiencia española de transición a la democracia". A su regreso, retomó sus clases de profesora de enseñanza media en el Saint George´s, entre los años 1981 a 1986.
+            Consultora para universidad Uniacc y miembro de su Directorio Ejecutivo hasta junio de 2010[1].
+            Directora Ejecutiva de Corporación Educacional Aprender.
+            Formó parte del directorio de la Fundación Belén Educa y de la Fundación Oportunidad.
+        </pl:estudiosVidaLaboral>
+        <pl:trayectoriaPoliticaPublica  title="Trayectoria política y pública">
+            Inició su trayectoria política en 1987, año en que se creó la Concertación de Mujeres por la Democracia. Paralelamente, fue nombrada subdirectora nacional del Departamento de la Mujer del Partido Demócrata Cristiano y secretaria ejecutiva de la Fundación para el Desarrollo y la Cultura Popular.
+            Con el retorno a la democracia, en 1990 se desempeñó como asesora externa de la Dirección de Estudios del Ministerio Secretaría General de la Presidencia, ejerciendo hasta 1994.
+            Durante 1991 fue delegada a la Junta Nacional del Partido Demócrata Cristiano. En 1992 y 1993 integró la directiva central del partido, ocupando la cuarta vicepresidencia nacional[2]. También fue Presidenta del Consejo Político-Técnico y Coordinadora de la Comisión "Programa de la Concertación de Partidos por la Democracia".
+            En diciembre de 1993 participó en las elecciones parlamentarias como candidata a diputada por el Distrito Nº26, de correspondía en aquel entonces a la comuna de La Florida, en la Región Metropolitana. Fue electa al obtener 48.309 votos, es decir 32,91% de las preferencias[3].
+            Para las elecciones parlamentarias de 1997 fue a la reelección por el mismo distrito, pero obtuvo el 20,72% de los sufragios[4], y no resultó electa.
+            Entre 1999 y 2000, se desempeñó como Coordinadora Nacional del Programa de Mejoramiento de la Calidad y Equidad de la Educación Media (MECE-MEDIA) del Ministerio de Educación.
+            Entre 2000 y 2003 fue Ministra de Educación durante el gobierno de Ricardo Lagos Escobar.
+            En 2006 le correspondió organizar el Congreso Programático de la Democracia Cristiana[5] de octubre de 2007 donde se conmemoraron los 70 años de la fundación de la Falange Nacional.
+            Entre mayo y julio de 2010 participó en el Panel de Expertos para una Educación de Calidad, convocado por el presidente Sebastián Piñera, que trabajó para elaborar propuestas para mejorar el sistema de educación chileno[6].
+            Entre 2013 y 2015 fuerza pública.
+            En las elecciones para el gobierno regional efectuadas en diciembre de 2013, resultó electa Consejera Regional de la Región Metropolitana de Santiago por la IV circunscripción, al obtener 47.164 votos, es decir el 10,76% de las preferencias. Se desempeñó en este cargo hasta noviembre de 2016 cuando presentó su renuncia con la intención de participar en las elecciones parlamentarias de diciembre de 2017.
+            El 5 de enero de 2018, oficializó su renuncia al Partido Demócrata Cristiano[7].
+            Entre junio y noviembre de 2018 presidió la comisión presidencial de expertos llamada “Todos al Aula” y que tuvo por objetivo elaborar un plan para desburocratizar la carga administrativa de los colegios del país[8].
+            En julio de 2018 fue designada para integrar el directorio de la Fundación Chile[9].
+        </pl:trayectoriaPoliticaPublica>
+        <pl:hemiciclos title="Parlamentario en el hemiciclo">
+            <pl:hemiciclo>
+                <hm:periodoInicio title="Periodo inicio">1994</hm:periodoInicio>
+                <hm:periodoTermino  title="Periodo termino">1998</hm:periodoTermino>
+                <hm:descripcion>
+                    En diciembre de 1993 se presentó como candidata a diputada por el Distrito Nº26, que representaba a la comuna de La Florida, en la Región Metropolitana, para el período 1994 a 1998 y resultó electa.
+                    Integró la Comisión Permanente de Educación, Cultura, Deportes y Recreación, la Comisión de Familia y la Comisión de Salud.
+                    Asistió en representación oficial de la Cámara de Diputados a la III Reunión de Comisión de la Mujer del Parlamento Latinoamericano y Caribeño (PARLATINO) realizada en Buenos Aires, Argentina, en septiembre de 1994[10].
+                </hm:descripcion>
+            </pl:hemiciclo>
+        </pl:hemiciclos>
+        <pl:bibliografias  title="Bibliográfias">
+            <pl:bibliografia seotitle="https://www.bcn.cl/catalogo/detalle_libro?bib=179757&amp;n=1">
+                <bl:nombre  title="Nombre" >
+                    La reforma al sistema escolar : aportes para el debate
+                </bl:nombre>
+                <bl:editorial  title="Editorial">Universidad Diego Portales</bl:editorial>
+                <bl:ano  title="Año">2007</bl:ano>
+                <bl:descripcion  title="Descripcion">252 páginas</bl:descripcion>
+                <bl:isbn  title="ISBN">9563140071</bl:isbn>
+                <bl:disponible  title="Disponible">3</bl:disponible>
+            </pl:bibliografia>
+            <pl:bibliografia seotitle="https://www.bcn.cl/catalogo/detalle_libro?bib=153359&amp;n=1">
+                <bl:nombre>
+                    Ley de matrimonio civil : el apoyo de parlamentarios católicos
+                </bl:nombre>
+                <bl:editorial></bl:editorial>
+                <bl:ano>2004</bl:ano>
+                <bl:descripcion>Mensaje.(Santiago - Chile).Vol. 53, no. 528 (mayo 2004), p. 26-29, il.</bl:descripcion>
+                <bl:isbn></bl:isbn>
+                <bl:disponible>0</bl:disponible>
+            </pl:bibliografia>
+            <pl:bibliografia seotitle="https://www.bcn.cl/catalogo/detalle_libro?bib=177825&amp;n=1">
+                <bl:nombre>
+                    Presentes y distantes : los desafíos del e-learning en la educación superior
+                </bl:nombre>
+                <bl:editorial>Universidad Uniac</bl:editorial>
+                <bl:ano>2006</bl:ano>
+                <bl:descripcion>92 p. : diagrs.</bl:descripcion>
+                <bl:isbn>9563070127</bl:isbn>
+                <bl:disponible>1</bl:disponible>
+            </pl:bibliografia>
+        </pl:bibliografias>
+    </pl:politico>
+    <pl:politico id="3145">
+	<pl:datosPersonales  title="Datos personales" itemscope="" itemtype="http://schema.org/Person">
+	 <pl:img url="http://biografias.bcn.cl/images/3/30/Mar%C3%ADa_Antonieta_Saa_D%C3%ADaz.jpg" itemprop="image"></pl:img>
+        <pl:nombres title="Nombres" itemprop="givenName">María Antonieta</pl:nombres>
+        <pl:apellidoPaterno title="Apellido Paterno" itemprop="familyName">Saa</pl:apellidoPaterno>
+        <pl:apellidoMaterno title="Apellido Materno" itemprop="familyName">Díaz</pl:apellidoMaterno>
+        <pl:estadoCivil  title="Estado Civil">Soltero</pl:estadoCivil>
+        <pl:profesion title="Profesión" itemprop="hasOccupation">Profesora de Castellano</pl:profesion>
+        <pl:nacionalidad title="Nacionalidad" itemprop="nationality">Chilena</pl:nacionalidad>
+        <pl:fechaNacimiento title="Fecha de Nacimiento" itemprop="birthDate">1943-01-08</pl:fechaNacimiento>
+        <pl:lugarNacimiento title="Lugar Nacimiento" itemprop="birthPlace">Santiago, Chile</pl:lugarNacimiento>
+        <pl:fechaDefuncion title="Fecha Defunción" itemprop="deathDate">&#160;</pl:fechaDefuncion>
+        <pl:lugarDefuncion title="Lugar Defunción" itemprop="deathPlace">&#160;</pl:lugarDefuncion>
+		</pl:datosPersonales>
+        <pl:trayectorias title="Trayectoria Política">
+            <pl:trayectoria >
+                <ty:tipoParlamentario title="Tipo de Parlamentario">Diputado</ty:tipoParlamentario>
+                <ty:partidoPolitico title="Partido político">Partido Por la Democracia</ty:partidoPolitico>
+                <ty:periodoInicio title="Periodo inicio">2010</ty:periodoInicio>
+                <ty:periodoTermino title="Periodo Termino">2014</ty:periodoTermino>
+                <ty:divisionElectoral title="Distrito Electoral" >Distrito N° 17</ty:divisionElectoral>
+            </pl:trayectoria  >
+            <pl:trayectoria>
+                <ty:tipoParlamentario title="Tipo de Parlamentario">Diputado</ty:tipoParlamentario>
+                <ty:partidoPolitico title="Partido político">Partido Por la Democracia</ty:partidoPolitico>
+                <ty:periodoInicio  title="Periodo inicio">2006</ty:periodoInicio>
+                <ty:periodoTermino title="Periodo Termino">2010</ty:periodoTermino>
+                <ty:divisionElectoral title="Distrito Electoral">Distrito N° 17</ty:divisionElectoral>
+            </pl:trayectoria>
+            <pl:trayectoria>
+                <ty:tipoParlamentario title="Tipo de Parlamentario">Diputado</ty:tipoParlamentario>
+                <ty:partidoPolitico title="Partido político">Partido Por la Democracia</ty:partidoPolitico>
+                <ty:periodoInicio  title="Periodo inicio">2002</ty:periodoInicio>
+                <ty:periodoTermino title="Periodo Termino">2006</ty:periodoTermino>
+                <ty:divisionElectoral title="Distrito Electoral">Distrito N° 17</ty:divisionElectoral>
+            </pl:trayectoria>
+        </pl:trayectorias>
+        <pl:reseniaResumen   title="Resumen reseña bibliográfica"  itemprop="description" itemscope="" itemtype="http://schema.org/description">
+            María Antonieta Saa (Santiago, 8 de enero de 1943). Profesora de Estado, mención Castellano, y política del Partido Por la Democracia. Diputada por el Distrito Nº 17, Región Metropolitana, desde 1994 a 2014, por cinco periodos consecutivos. Alcaldesa de la Municipalidad de Conchalí entre 1990 y 1992. Entre 1997 y 1998 fue primera vicepresidenta de la Cámara de Diputados. Consejera Regional por la Circunscripción Provincial Santiago I, períodos 2014-2018 y 2018-2022.
+        </pl:reseniaResumen>
+        <pl:familiaJuventud title="Familia y juventud">
+            Nació el 8 de enero de 1943, en Santiago. Hija de Raúl Saa y María Antonieta Díaz. Soltera.
+        </pl:familiaJuventud>
+        <pl:estudiosVidaLaboral title="Estudios y vida laboral">
+            Realizó sus estudios primarios en el Liceo Chileno en Santiago, en el Colegio Beata Imelda de Pitrufquén, y en el Liceo de Niñas de Quillota. Concluyó su educación secundaria en el Liceo N° 7 de Santiago. En 1960, ingresó al Instituto Pedagógico de la Universidad de Chile, donde se tituló de profesora de Castellano, en 1965.
+            Profesionalmente, se desempeñó como profesora del Liceo N° 17 en Santiago. En 1967, se integró a la Corporación de la Reforma Agraria (CORA), como encargada del Programa de Alfabetización Campesina.
+            A partir de 1979, se desempeñó como secretaria de diversos escritores como Jorge Edwards, Matilde Urrutia y Elisa Serrana. Posteriormente, ingresó a trabajar como secretaria al Centro de Formación Técnica Vicente Pérez Rosales en Santiago dónde más tarde, fue jefa de la Carrera de Secretariado.
+            Fue editora social y gremial de la Organización No Gubernamental (ONG) ISIS Internacional, servicio de información y comunicación de las mujeres. En 1982, como parte de la misma institución, viajó a Italia por un año. Al año siguiente, nuevamente en Chile, fue nombrada coordinadora del Círculo de Estudios de la Mujer
+        </pl:estudiosVidaLaboral>
+        <pl:trayectoriaPoliticaPublica title="Trayectoria política y pública">
+            Inició sus actividades públicas como fundadora y primera presidenta del Centro de Alumnas del Liceo N° 7 de Santiago. Posteriormente, fue presidenta de la Juventud Estudiantil Católica de Santiago.
+            En 1969, fue electa presidenta de la Asociación de Trabajadores de la CORA, el que junto a trabajadores del Instituto de Desarrollo Agropecuario (INDAP) y del Servicio Agrícola y Ganadero (SAG), conformaron una agrupación de trabajadores del agro que se integró a la Central Única de Trabajadores (CUT). Como vicepresidenta de esta última agrupación, participó en la CUT.
+            En 1970, se integró al Movimiento de Acción Popular Unitario (MAPU), donde fue miembro de la Directiva Nacional y de la Comisión Política, hasta 1972. Dentro de la misma colectividad, fue parte del grupo fundador del Movimiento de Acción Popular Unitaria-Obrero Campesino (también conocido como MAPU-OC, MOC o MAPU Obrero Campesino). Fue parte de su Comité Central y de la Comisión Política.
+            En 1983, participó en la fundación del Movimiento Feminista. Ese mismo año, ingresó al Partido Socialista (PS). Entre 1985 y 1987, fue miembro del Comité Central y de la Comisión Política de dicha colectividad.
+            En 1986, fue electa dirigenta de la Asamblea de la Civilidad y colaboró en la fundación de la Concertación de Mujeres por la Democracia. Al año siguiente, se integró a la Directiva Central del Partido Por la Democracia (PPD), siendo electa vicepresidenta entre 2003 y 2004.
+            Entre 1990, el presidente Patricio Aylwin la designó alcaldesa de la Municipalidad de Conchalí, cargo en el que estuvo hasta 1992. Durante dicho periodo, impulsó el Consejo Comunal del Niño y Niña, y el Consejo del Adulto Mayor. Asimismo, creó el Centro de Apoyo a la Mujer Víctima de la Violencia Doméstica, el Programa de Apoyo para la Mujer Jefa de Hogar y los Servicios Educativos para Niños.
+            El 13 mayo de 2012 participó en las elecciones internas de su colectividad representando la lista "Un PPD para el Nuevo Chile" que obtuvo el segundo lugar con el 36,3% del total de los sufragios. El 11 de junio de 2012 asumió la séptima vicepresidencia en la mesa directiva del Partido Por la Democracia.
+            En 2013 fue electa Consejera Regional (CORE) por la Circunscripción Provincial Santiago I, periodo 2014-2018, correspondiente a las comunas de Renca, Conchalí, Huechuraba, Pudahuel y Quilicura. Una vez asumida en el cargo se integró a las comisiones de Educación, Ordenamiento Territorial e Internacional[1].
+        </pl:trayectoriaPoliticaPublica>
+        <pl:hemiciclos title="Parlamentario en el hemiciclo">
+            <pl:hemiciclo  >
+                <hm:periodoInicio title="Periodo inicio">2010</hm:periodoInicio>
+                <hm:periodoTermino title="Periodo termino">2014</hm:periodoTermino>
+                <hm:descripcion >
+                    En diciembre de 2009, fue reelecta por quinta vez por el mismo distrito, (periodo legislativo 2010 a 2014). Es integrante de las comisiones permanentes de Familia; de Educación; de Ciencia y Tecnología; y de Superación de Pobreza, Planificación y Desarrollo Social. Junto con la comisión especial del Adulto Mayor. Forma parte del comité parlamentario del Partido Por la Democracia.
+                    Para las elecciones parlamentarias de noviembre de 2013 decidió no presentarse a la reelección por un nuevo periodo.
+                </hm:descripcion>
+            </pl:hemiciclo>
+            <pl:hemiciclo>
+                <hm:periodoInicio title="Periodo inicio">2006</hm:periodoInicio>
+                <hm:periodoTermino title="Periodo termino">2010</hm:periodoTermino>
+                <hm:descripcion>
+                    En diciembre de 2005, mantuvo su escaño en la Cámara por el mismo Distrito, (periodo legislativo 2006 a 2010). Integró las comisiones permanentes de Educación, Cultura, Deportes y Recreación; de Familia; de Vivienda y Desarrollo Urbano; y de Constitución, Legislación y Justicia. Junto con las comisiones especiales de Seguridad Ciudadana; y de Drogas. Además de la Comisión Investigadora sobre Platas Públicas entregadas a la Corporación de Desarrollo de Arica y Parinacota (CORDAP).
+                    En misiones al extranjero, participó en la 115ª Asamblea de la Unión Interparlamentaria Mundial, en Suiza y también en su versión número 116, en Indonesia. También integró los grupos interparlamentarios chileno-británico, chileno-holandés y chileno-italiano.
+                </hm:descripcion>
+            </pl:hemiciclo>
+            <pl:hemiciclo>
+                <hm:periodoInicio title="Periodo inicio">2002</hm:periodoInicio>
+                <hm:periodoTermino title="Periodo termino">2006</hm:periodoTermino>
+                <hm:descripcion>
+                    En diciembre de 2001, fue reelecta por tercera vez, por su mismo partido e igual Distrito, (período legislativo 2002 a 2006). Mantuvo su trabajo en las mismas comisiones del periodo anterior: Educación, Cultura, Deportes y Recreación; y de Familia.
+                </hm:descripcion>
+            </pl:hemiciclo>
+        </pl:hemiciclos>
+    </pl:politico>	
+    <pl:politico id="2234">
+	<pl:datosPersonales  title="Datos personales"  itemscope="" itemtype="http://schema.org/Person">
+	 <pl:img url="https://biografias.bcn.cl/images/c/c3/Jos%C3%A9_Luis_Cadem%C3%A1rtori_Invernizzi.jpg"  itemprop="image"></pl:img>
+        <pl:nombres title="Nombres" itemprop="givenName">José Luis</pl:nombres>
+        <pl:apellidoPaterno title="Apellido Paterno" itemprop="familyName">Cademártori</pl:apellidoPaterno>
+        <pl:apellidoMaterno title="Apellido Materno" itemprop="familyName">Invernizzi</pl:apellidoMaterno>
+        <pl:estadoCivil title="Estado Civil">Casado</pl:estadoCivil>
+        <pl:profesion  title="Profesión" itemprop="hasOccupation">Ingeniero Comercial</pl:profesion>
+        <pl:nacionalidad title="Nacionalidad" itemprop="nationality">Chilena</pl:nacionalidad>
+        <pl:fechaNacimiento title="Fecha de Nacimiento" itemprop="birthDate">1930-09-24</pl:fechaNacimiento>
+        <pl:lugarNacimiento title="Lugar Nacimiento" itemprop="birthPlace">La Serena</pl:lugarNacimiento>
+        <pl:fechaDefuncion title="Fecha Defunción" itemprop="deathDate">&#160;</pl:fechaDefuncion>
+        <pl:lugarDefuncion title="Lugar Defunción" itemprop="deathPlace">&#160;</pl:lugarDefuncion>
+			</pl:datosPersonales>
+        <pl:trayectorias  title="Trayectoria Política">
+            <pl:trayectoria>
+                <ty:tipoParlamentario title="Tipo de Parlamentario">Diputado</ty:tipoParlamentario>
+                <ty:partidoPolitico title="Partido político">Partido Comunista de Chile</ty:partidoPolitico>
+                <ty:periodoInicio title="Periodo inicio">1969</ty:periodoInicio>
+                <ty:periodoTermino title="Periodo Termino">1973</ty:periodoTermino>
+                <ty:divisionElectoral title="Distrito Electoral">7ª Agrupación Departamental "Santiago", primer distrito</ty:divisionElectoral>
+            </pl:trayectoria>
+            <pl:trayectoria>
+                <ty:tipoParlamentario title="Tipo de Parlamentario">Diputado</ty:tipoParlamentario>
+                <ty:partidoPolitico title="Partido político">Partido Comunista de Chile</ty:partidoPolitico>
+                <ty:periodoInicio title="Periodo inicio">1965</ty:periodoInicio>
+                <ty:periodoTermino title="Periodo Termino">1969</ty:periodoTermino>
+                <ty:divisionElectoral title="Distrito Electoral">7ª Agrupación Departamental "Santiago", primer distrito</ty:divisionElectoral>
+            </pl:trayectoria>
+            <pl:trayectoria>
+                <ty:tipoParlamentario title="Tipo de Parlamentario">Diputado</ty:tipoParlamentario>
+                <ty:partidoPolitico title="Partido político">Partido Comunista de Chile</ty:partidoPolitico>
+                <ty:periodoInicio title="Periodo inicio">1961</ty:periodoInicio>
+                <ty:periodoTermino title="Periodo Termino">1965</ty:periodoTermino>
+                <ty:divisionElectoral title="Distrito Electoral">7ª Agrupación Departamental "Santiago", primer distrito</ty:divisionElectoral>
+            </pl:trayectoria>
+            <pl:trayectoria>
+                <ty:tipoParlamentario title="Tipo de Parlamentario">Diputado</ty:tipoParlamentario>
+                <ty:partidoPolitico title="Partido político">Partido Comunista de Chile</ty:partidoPolitico>
+                <ty:periodoInicio title="Periodo inicio">1957</ty:periodoInicio>
+                <ty:periodoTermino title="Periodo Termino">1961</ty:periodoTermino>
+                <ty:divisionElectoral title="Distrito Electoral">7ª Agrupación Departamental "Santiago", primer distrito</ty:divisionElectoral>
+            </pl:trayectoria>
+        </pl:trayectorias>
+        <pl:reseniaResumen title="Resumen reseña bibliográfica"    itemprop="description" itemscope="" itemtype="http://schema.org/description">
+            José Luis Cademártori (La Serena, 24 de septiembre de 1930). Ingeniero comercial, académico y político chileno del Partido Comunista. Diputado por cuatro periodos consecutivos entre 1957 y 1973 por la Séptima Agrupación Departamental "Santiago", primer distrito.        
+        </pl:reseniaResumen>
+        <pl:familiaJuventud title="Familia y juventud">
+            Nació en La Serena el 24 de septiembre de 1930; hijo de José Cademártori Vaccaro y Stella Invernizzi. Se casó con Xenia Dujisin y tuvieron tres hijos: Yanina, Jean José y Andrés.       
+        </pl:familiaJuventud>
+        <pl:estudiosVidaLaboral title="Estudios y vida laboral">
+            Sus estudios escolares los realizó en un colegio de monjas italianas en Arica, en un establecimiento educacional de sacerdotes en Iquique y en el Patrocinio San José de la ciudad de Santiago. La educación superior la realizó en la Escuela de Economía de la Universidad de Chile donde se tituló de Ingeniero Comercial en 1952 con la memoria de tesis titulada “Las cuentas nacionales: naturales y experiencia”, establecimiento donde posteriormente se desempeñaría como ayudante y profesor. Durante sus estudios conoció a su mujer, Xenia Dujisin, con quien tuvo tres hijos.
+            En el ámbito laboral, durante el segundo gobierno de Carlos Ibáñez del Campo, entre 1952 y 1954, trabajó como asesor del Ministro de Hacienda Juan Bautista Rossetti, incorporándose después al recién creado Ministerio de Minería a cargo de Clodomiro Almeyda. Luego se incorporaría como Jefe de Sección del Departamento de Planificación de la Corporación de Fomento, CORFO, donde se desempeñaría además como dirigente de la Asociación de Empleados entre 1959-1960 y Senador Consejero en 1957.
+            A su regreso a Chile del exilio, trabajó en el Instituto Alejandro Lipschutz, colaboró en medios periodísticos como Le Monde Diplomatique, Rocinante, La Nación y Punto Final, se dedicó a prestar asesorías además de dictar charlas asumiendo una postura crítica del neoliberalismo expresada en sus libros Chile: el modelo neoliberal del 2001 y en 2004. La globalización cuestionada, entre otros trabajos.    
+        </pl:estudiosVidaLaboral>
+        <pl:trayectoriaPoliticaPublica  title="Trayectoria política y píblica">
+            Miembro del Partido Comunista de Chile, integró el Comité Central del mismo, siendo su titular desde el XII Congreso de 1961. En su actuación político-pública también fue llamado por el presidente Salvador Allende para el cargo de ministro de Economía, Fomento y Reconstrucción, puesto que ocupó entre el 5 de julio de 1973 y el 11 de septiembre del mismo año. Preso tres años en la Escuela Militar de Santiago, en la isla Dawson y en Ritoque, siendo deportado al exilio junto a su mujer y dos hijos en noviembre de 1976. Vivió en Venezuela seis años, hizo clases en la Universidad Central de Caracas y se desempeñó como investigador del Centro de Estudios del Desarrollo, además de dedicarse a la organización política de los exiliados. Hasta 1980 formó parte del “Grupo Caracas” integrado por democratacristianos, radicales, socialistas y comunistas, entre ellos Jaime Castillo Velasco y Renán Fuentealba. Después estuvo un año en Cuba y luego en Alemania durante aproximadamente cinco años hasta su regreso a Chile en 1988 semanas antes del Plebiscito de aquel año. 
+        </pl:trayectoriaPoliticaPublica>
+        <pl:hemiciclos title="Parlamentario en el hemiciclo">
+            <pl:hemiciclo>
+                <hm:periodoInicio title="Periodo inicio">1969</hm:periodoInicio>
+                <hm:periodoTermino title="Periodo termino">1973</hm:periodoTermino>
+                <hm:descripcion>
+                    Reelecto nuevamente diputado por la Agrupación y Distrito mencionados, período 1969-1973; integró la Comisión Permanente de Hacienda.                  
+                </hm:descripcion>
+            </pl:hemiciclo>
+            <pl:hemiciclo>
+                <hm:periodoInicio  title="Periodo inicio">1965</hm:periodoInicio>
+                <hm:periodoTermino title="Periodo termino">1969</hm:periodoTermino>
+                <hm:descripcion>
+                    Fue electo nuevamente diputado por la Agrupación y Distrito ya mencionados, período 1965-1969, donde fue miembro de la Comisión Mixta de Presupuesto, 1963 a 1969 y miembro propietario del Comité Parlamentario Comunista entre 1967-1969.
+                </hm:descripcion>
+            </pl:hemiciclo>
+        </pl:hemiciclos>
+        <pl:bibliografias title="Bibliográfias">
+            <pl:bibliografia seotitle="https://www.bcn.cl/catalogo/detalle_libro?bib=165061&amp;n=1">
+                <bl:nombre>
+                    Globalización, identidad y justicia social
+                </bl:nombre>
+                <bl:editorial>Universidad Arcis</bl:editorial>
+                <bl:ano>2005</bl:ano>
+                <bl:descripcion>350 páginas</bl:descripcion>
+                <bl:isbn>956811453X</bl:isbn>
+                <bl:disponible>1</bl:disponible>
+            </pl:bibliografia>
+            <pl:bibliografia seotitle="https://www.bcn.cl/catalogo/detalle_libro?bib=154300&amp;n=1">
+                <bl:nombre>
+                    La globalización cuestionada
+                </bl:nombre>
+                <bl:editorial>Universidad de Santiago de Chile</bl:editorial>
+                <bl:ano>2004</bl:ano>
+                <bl:descripcion>186 páginas</bl:descripcion>
+                <bl:isbn>9567069921</bl:isbn>
+                <bl:disponible>1</bl:disponible>
+            </pl:bibliografia>
+        </pl:bibliografias>
+    </pl:politico>
+</politicos>
